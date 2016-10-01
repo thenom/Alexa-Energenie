@@ -1,0 +1,22 @@
+TurnOnAll turn on all {plural_socket_types}
+TurnOnAll turn on all the {plural_socket_types}
+TurnOnAll turn on the {plural_socket_types}
+TurnOnAll turn on the {plural_socket_types}
+TurnOnAll turn on all the {plural_socket_types}
+TurnOnAll let there be light
+TurnOffAll turn off all {plural_socket_types}
+TurnOffAll turn off all the {plural_socket_types}
+TurnOffAll turn off the {plural_socket_types}
+TurnOffAll turn off the {plural_socket_types}
+TurnOffAll turn off all the {plural_socket_types}
+TurnOffAll let there be darkness
+TurnOn turn on the {socket_name}
+TurnOn turn on the {socket_name} {socket_type}
+TurnOn turn on socket {socket_number}
+TurnOn turn the {socket_name} on
+TurnOn turn the {socket_name} {socket_type} on
+TurnOff turn off the {socket_name}
+TurnOff turn off the {socket_name} {socket_type}
+TurnOff turn off socket {socket_number}
+TurnOff turn the {socket_name} off
+TurnOff turn the {socket_name} {socket_type} off

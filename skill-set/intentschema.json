@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "intent":"TurnOnAll",
+      "slots": [
+        {
+          "name":"plural_socket_types",
+          "type":"PLURAL_SOCKET_TYPES"
+        }
+      ]
+    },
+    {
+      "intent":"TurnOffAll",
+      "slots": [
+        {
+          "name":"plural_socket_types",
+          "type":"PLURAL_SOCKET_TYPES"
+        }
+      ]
+    },
+    {
+      "intent":"TurnOn",
+      "slots": [
+        {
+          "name":"socket_number",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"socket_name",
+          "type":"SOCKET_NAMES"
+        },
+        {
+          "name":"socket_type",
+          "type":"SOCKET_TYPE"
+        }
+      ]
+    },
+    {
+      "intent":"TurnOff",
+      "slots": [
+        {
+          "name":"socket_number",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"socket_name",
+          "type":"SOCKET_NAMES"
+        },
+        {
+          "name":"socket_type",
+          "type":"SOCKET_TYPE"
+        }
+      ]
+    }
+  ]
+}
