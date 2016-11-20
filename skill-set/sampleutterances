@@ -3,12 +3,14 @@ TurnOnAll turn on all the {plural_socket_types}
 TurnOnAll turn on the {plural_socket_types}
 TurnOnAll turn on the {plural_socket_types}
 TurnOnAll turn on all the {plural_socket_types}
+TurnOnAll turn all the {plural_socket_types} on
 TurnOnAll let there be light
 TurnOffAll turn off all {plural_socket_types}
 TurnOffAll turn off all the {plural_socket_types}
 TurnOffAll turn off the {plural_socket_types}
 TurnOffAll turn off the {plural_socket_types}
 TurnOffAll turn off all the {plural_socket_types}
+TurnOffAll turn all the {plural_socket_types} off
 TurnOffAll let there be darkness
 TurnOn turn on the {socket_name}
 TurnOn turn on the {socket_name} {socket_type}
