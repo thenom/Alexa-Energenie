@@ -25,8 +25,8 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
         },
         'card': {
             'type': 'Simple',
-            'title': "SessionSpeechlet - " + title,
-            'content': "SessionSpeechlet - " + output
+            'title': "Energenie - " + title,
+            'content': output
         },
         'reprompt': {
             'outputSpeech': {
@@ -86,7 +86,7 @@ def turn_on_all(intent, session):
     if 'plural_socket_type' in intent["slots"]:
         speech_output = "Turning on all the %s" % (intent["slots"]["plural_socket_type"]["value"])
     else:
-        speech_output = "Thou command, i obey.  Illuminate!"
+        speech_output = "Illuminate!"
     reprompt_text = ""
     
     if send_request('update_socket/allon/'):
@@ -103,7 +103,7 @@ def turn_off_all(intent, session):
     if 'plural_socket_type' in intent["slots"]:
         speech_output = "Turning off all the %s" % (intent["slots"]["plural_socket_type"]["value"])
     else:
-        speech_output = "Thou command, i obey.  Enter darkness!"
+        speech_output = "Enter darkness!"
     reprompt_text = ""
     
     if send_request('update_socket/alloff/'):
